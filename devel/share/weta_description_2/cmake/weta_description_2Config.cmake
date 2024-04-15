@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/weta_description_2/share/weta_description_2/cmake/weta_description_2Config.cmake

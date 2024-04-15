@@ -1,0 +1,31 @@
+[  0%] Built target _atom_msgs_generate_messages_check_deps_DeleteCollection
+[  0%] Built target _atom_msgs_generate_messages_check_deps_SetSensorInteractiveMarker
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _atom_msgs_generate_messages_check_deps_RGBLabels
+[  0%] Built target _atom_msgs_generate_messages_check_deps_DepthImageWithDepthLabels
+[  0%] Built target _atom_msgs_generate_messages_check_deps_Detection2D
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target _atom_msgs_generate_messages_check_deps_PointCloudWithLidar3DLabels
+[  0%] Built target _atom_msgs_generate_messages_check_deps_ImageWithRGBLabels
+[  0%] Built target _atom_msgs_generate_messages_check_deps_GetSensorInteractiveMarker
+[  0%] Built target _atom_msgs_generate_messages_check_deps_Lidar3DLabels
+[  0%] Built target _atom_msgs_generate_messages_check_deps_SetAdditionalTfsInteractiveMarker
+[  0%] Built target _atom_msgs_generate_messages_check_deps_DepthLabels
+[  0%] Built target _atom_msgs_generate_messages_check_deps_GetAdditionalTfsInteractiveMarker
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _atom_msgs_generate_messages_check_deps_GetDataset
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _atom_msgs_generate_messages_check_deps_SaveCollection
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target _atom_msgs_generate_messages_check_deps_ToggleAutomaticDataCollector
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[ 39%] Built target atom_msgs_generate_messages_lisp
+[ 41%] Built target atom_msgs_generate_messages_py
+[ 98%] Built target atom_msgs_generate_messages_cpp
+[ 98%] Built target atom_msgs_generate_messages_nodejs
+[100%] Built target atom_msgs_generate_messages_eus
+[100%] Built target atom_msgs_generate_messages

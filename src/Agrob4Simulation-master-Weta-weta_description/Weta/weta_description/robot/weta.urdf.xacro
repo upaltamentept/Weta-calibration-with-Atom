@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Mowit_URDF" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+     <xacro:include filename="$(find weta_description)/robot/weta.gazebo" />
+
+<link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0323084112717895 0.0685315261453427 0.0111740400016626"
+        rpy="0 0 0" />
+      <mass
+        value="135.026170373349" />
+      <inertia
+        ixx="3.05963266025446"
+        ixy="-0.00481912640605503"
+        ixz="-9.48376216412422E-16"
+        iyy="20.8553346808319"
+        iyz="5.443899791529E-17"
+        izz="18.935411898856" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.505882352941176 0.509803921568627 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="left_body_Link">
+    <inertial>
+      <origin
+        xyz="-0.132560453147225 0.165328017104428 -0.000919170306823286"
+        rpy="0 0 0" />
+      <mass
+        value="130.911490643377" />
+      <inertia
+        ixx="18.0533691224711"
+        ixy="0.255828985116694"
+        ixz="-2.10400366949539E-05"
+        iyy="17.0578722644908"
+        iyz="-0.000227963196114239"
+        izz="2.87351368871619" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_left_body_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/left_body_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_body_Joint"
+    type="fixed">
+    <origin
+      xyz="-0.03546 0.23383 0.026095"
+      rpy="1.5708 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_body_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="BWL_Link">
+    <inertial>
+      <origin
+        xyz="-5.55111512312578E-17 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="21.7905908709197" />
+      <inertia
+        ixx="0.480537005180957"
+        ixy="7.33508474913107E-34"
+        ixz="0"
+        iyy="0.28881112949124"
+        iyz="-2.24752719453376E-33"
+        izz="0.28881112949124" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_BWL_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/BWL_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="BWL_Joint"
+    type="continuous">
+    <origin
+      xyz="-0.26312 -0.015 0.45"
+      rpy="3.1416 0 3.1416" />
+    <parent
+      link="left_body_Link" />
+    <child
+      link="BWL_Link" />
+    <axis
+      xyz="1 0 0" />
+         <dynamics damping="0.01" friction="0.05"/>
+  </joint>
+  <link
+    name="FWL_Link">
+    <inertial>
+      <origin
+        xyz="-5.55111512312578E-17 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="21.7905908709197" />
+      <inertia
+        ixx="0.480537005180957"
+        ixy="7.33508474913107E-34"
+        ixz="0"
+        iyy="0.28881112949124"
+        iyz="-2.24752719453377E-33"
+        izz="0.28881112949124" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_FWL_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/FWL_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="FWL_Joint"
+    type="continuous">
+    <origin
+      xyz="-0.26312 -0.015 -0.45"
+      rpy="3.1416 0 3.1416" />
+    <parent
+      link="left_body_Link" />
+    <child
+      link="FWL_Link" />
+    <axis
+      xyz="1 0 0" />
+                    
+   <dynamics damping="0.01" friction="0.05"/>
+  </joint>
+  <link
+    name="right_body_Link">
+    <inertial>
+      <origin
+        xyz="-0.132560453147225 0.165328017104428 -0.000919170306823397"
+        rpy="0 0 0" />
+      <mass
+        value="130.911490643377" />
+      <inertia
+        ixx="18.0533691224711"
+        ixy="0.255828985116694"
+        ixz="-2.10400366963686E-05"
+        iyy="17.0578722644908"
+        iyz="-0.00022796319611144"
+        izz="2.8735136887162" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_right_body_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/right_body_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_body_Joint"
+    type="revolute">
+    <origin
+      xyz="-0.03546 -0.25617 0.026095"
+      rpy="1.5708 0 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_body_Link" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.4"
+      upper="0.4"
+      effort="2"
+      velocity="5" />
+  </joint>
+  <link
+    name="BWR_Link">
+    <inertial>
+      <origin
+        xyz="1.11022302462516E-16 0 -5.55111512312578E-17"
+        rpy="0 0 0" />
+      <mass
+        value="21.7905908709197" />
+      <inertia
+        ixx="0.480537005180957"
+        ixy="-7.33248951617695E-34"
+        ixz="-1.47722546001147E-19"
+        iyy="0.28881112949124"
+        iyz="-7.70889582205366E-18"
+        izz="0.28881112949124" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_BWR_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/BWR_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="BWR_Joint"
+    type="continuous">
+    <origin
+      xyz="-0.26312 -0.015 -0.45"
+      rpy="3.1416 0 3.1416" />
+    <parent
+      link="right_body_Link" />
+    <child
+      link="BWR_Link" />
+    <axis
+      xyz="-1 0 0" />
+      
+         <dynamics damping="0.01" friction="0.05"/>
+  </joint>
+  <link
+    name="FWR_Link">
+    <inertial>
+      <origin
+        xyz="1.11022302462516E-16 0 5.55111512312578E-17"
+        rpy="0 0 0" />
+      <mass
+        value="21.7905908709197" />
+      <inertia
+        ixx="0.480537005180957"
+        ixy="-1.11935743784922E-33"
+        ixz="-1.4772254600115E-19"
+        iyy="0.28881112949124"
+        iyz="1.37507593355059E-18"
+        izz="0.28881112949124" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_FWR_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/FWR_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="FWR_Joint"
+    type="continuous">
+    <origin
+      xyz="-0.26312 -0.015 0.45"
+      rpy="3.1416 0 3.1416" />
+    <parent
+      link="right_body_Link" />
+    <child
+      link="FWR_Link" />
+    <axis
+      xyz="-1 0 0" />
+      
+      <dynamics damping="0.01" friction="0.05"/>
+      
+  </joint>
+  <link
+    name="sprayer_body_Link">
+    <inertial>
+      <origin
+        xyz="-0.0099431913226482 0.12051440723685 -0.00452407541768585"
+        rpy="0 0 0" />
+      <mass
+        value="25.7804306216418" />
+      <inertia
+        ixx="9.60226456534398"
+        ixy="-1.66375880381071"
+        ixz="0.0612220052988588"
+        iyy="6.72903921236461"
+        iyz="0.0480823561416954"
+        izz="8.87721691534554" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_sprayer_middle_body_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/sprayer_body_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="sprayer_body_Joint"
+    type="fixed">
+    <origin
+      xyz="-0.03796 -0.011174 0.95109"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="sprayer_body_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="sprayer_nozzle_Link">
+    <inertial>
+      <origin
+        xyz="0.330446527133933 0.213217584485548 0.00130942051372903"
+        rpy="0 0 0" />
+      <mass
+        value="36.1007712187427" />
+      <inertia
+        ixx="11.5884752892697"
+        ixy="-0.355866355873022"
+        ixz="-4.87396421170487E-05"
+        iyy="19.1093791966868"
+        iyz="0.000150748403767925"
+        izz="10.1097535059728" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_sprayer_nozzle_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/sprayer_nozzle_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="sprayer_nozzle_Joint"
+    type="prismatic">
+    <origin
+      xyz="-0.245 0.72 0.00125"
+      rpy="0 0 0" />
+    <parent
+      link="sprayer_body_Link" />
+    <child
+      link="sprayer_nozzle_Link" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-0.1"
+      upper="1.0"
+      effort="1"
+      velocity="2.5" />
+  </joint>
+  
+  
+  
+  
+  
+  <!-- Rim wheels --> 
+  
+  
+  
+   <link
+    name="visual_Rim_FWR_Link">
+    <inertial>
+      <origin
+        xyz="-0.0322894685744339 2.22649980970054E-05 -9.26457634337075E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.904367671483566" />
+      <inertia
+        ixx="0.00366208026817061"
+        ixy="-4.62651458204566E-07"
+        ixz="1.93436601990892E-07"
+        iyy="0.0046682742691546"
+        iyz="-6.54752843583699E-07"
+        izz="0.00466697470679021" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_Rim_FWR_Link.STL" />
+      </geometry>
+    </visual>
+  </link>
+  <joint
+    name="visual_Rim_FWR_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="FWR_Link" />
+    <child
+      link="visual_Rim_FWR_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  
+   <link
+    name="visual_Rim_BWL_Link">
+    <inertial>
+      <origin
+        xyz="-0.0322894685793056 2.22795129820059E-05 -9.22961720406512E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.904367671387299" />
+      <inertia
+        ixx="0.00366208026816858"
+        ixy="-4.62954499741463E-07"
+        ixz="1.92710180373749E-07"
+        iyy="0.00466827632131619"
+        iyz="-6.52709800622007E-07"
+        izz="0.00466697265450701" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_Rim_BWL_Link.STL" />
+      </geometry>
+    </visual>
+  </link>
+  <joint
+    name="visual_Rim_BWL_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="BWL_Link" />
+    <child
+      link="visual_Rim_BWL_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  
+  <link
+    name="visual_Rim_FWL_Link">
+    <inertial>
+      <origin
+        xyz="-0.0319031714456366 2.31261896091565E-05 7.06912327486098E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.901866178236878" />
+      <inertia
+        ixx="0.00366135779365166"
+        ixy="-4.79806728301643E-07"
+        ixz="-1.4577237712003E-07"
+        iyy="0.00464040023884671"
+        iyz="5.15304969553419E-07"
+        izz="0.0046388700393048" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_Rim_FWL_Link.STL" />
+      </geometry>
+      
+    </visual>
+  </link>
+  <joint
+    name="visual_Rim_FWL_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="FWL_Link" />
+    <child
+      link="visual_Rim_FWL_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  
+  
+  
+  <link
+    name="visual_Rim_BWR_Link">
+    <inertial>
+      <origin
+        xyz="-0.0319031714458434 -7.06912287683388E-06 2.31261893560153E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.901866178333146" />
+      <inertia
+        ixx="0.00366135779365369"
+        ixy="1.45772386444391E-07"
+        ixz="-4.79806734140455E-07"
+        iyy="0.00463887003936515"
+        iyz="-5.15304968621107E-07"
+        izz="0.00464040023890798" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_Rim_BWR_Link.STL" />
+      </geometry>
+    </visual>
+  </link>
+  <joint
+    name="visual_Rim_BWR_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="BWR_Link" />
+    <child
+      link="visual_Rim_BWR_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  
+  
+  <!-- Sprayers visuals -->
+  
+   <link
+    name="visual_sprayer_front_body_Link">
+    <inertial>
+      <origin
+        xyz="-0.411529962490421 -0.51945989694009 3.44055056723663E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.65209950784611" />
+      <inertia
+        ixx="0.0594115846608893"
+        ixy="-0.00624774343719267"
+        ixz="3.30697501085441E-08"
+        iyy="0.0673503301487327"
+        iyz="4.40128672001049E-08"
+        izz="0.0230389413270922" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_sprayer_front_body_Link.STL" />
+      </geometry>
+    </visual>
+  </link>
+  <joint
+    name="visual_sprayer_front_body_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="sprayer_body_Link" />
+    <child
+      link="visual_sprayer_front_body_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  
+  
+   <link
+    name="visual_lidar_support_Link">
+    <inertial>
+      <origin
+        xyz="-0.0745885261242026 -0.463620260696802 0.000459957760539536"
+        rpy="0 0 0" />
+      <mass
+        value="0.113295075124599" />
+      <inertia
+        ixx="0.00127243267943024"
+        ixy="-0.000195748907986945"
+        ixz="-5.30880828191142E-07"
+        iyy="0.00086361070181355"
+        iyz="-5.5956003890873E-07"
+        izz="0.00151157174552618" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_lidar_support_Link.STL" />
+      </geometry>
+    </visual>
+  </link>
+  <joint
+    name="visual_lidar_support_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="visual_sprayer_front_body_Link" />
+    <child
+      link="visual_lidar_support_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  <link
+    name="visual_Lidar_Link">
+    <inertial>
+      <origin
+        xyz="-0.721619318027192 0.0687375709044259 -0.000966413595110885"
+        rpy="0 0 0" />
+      <mass
+        value="742.216580535013" />
+      <inertia
+        ixx="244.821958307064"
+        ixy="-47.3772260702774"
+        ixz="0.342717807104707"
+        iyy="200.388930469216"
+        iyz="-0.189216724093237"
+        izz="238.044144465086" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_Lidar_Link.STL" />
+      </geometry>
+    </visual>
+  </link>
+  <joint
+    name="visual_Lidar_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="visual_lidar_support_Link" />
+    <child
+      link="visual_Lidar_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  
+  <link
+    name="visual_sprayer_back_body_Link">
+    <inertial>
+      <origin
+        xyz="-0.315116619513102 0.510942488377937 0.000478866852714199"
+        rpy="0 0 0" />
+      <mass
+        value="0.195555663623699" />
+      <inertia
+        ixx="0.00221971078062256"
+        ixy="0.000221317743847114"
+        ixz="8.69930649925533E-11"
+        iyy="0.00552915615691545"
+        iyz="1.07220127783539E-10"
+        izz="0.0052521456562257" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_sprayer_back_body_Link.STL" />
+      </geometry>
+    </visual>
+  </link>
+  <joint
+    name="visual_sprayer_back_body_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="sprayer_body_Link" />
+    <child
+      link="visual_sprayer_back_body_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  
+   <link
+    name="visual_sprayer_tower_Link">
+    <inertial>
+      <origin
+        xyz="0.291559880958263 0.480356981002179 0.000500005074447436"
+        rpy="0 0 0" />
+      <mass
+        value="0.332919797046713" />
+      <inertia
+        ixx="0.0128402925449695"
+        ixy="-0.00208528138957352"
+        ixz="-2.26424016968046E-09"
+        iyy="0.0300295363322521"
+        iyz="7.11275479225072E-09"
+        izz="0.0199704944786141" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_sprayer_tower_Link.STL" />
+      </geometry>
+    </visual>
+  </link>
+  <joint
+    name="visual_sprayer_tower_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="sprayer_body_Link" />
+    <child
+      link="visual_sprayer_tower_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  
+   <link
+    name="visual_green_button_Link">
+    <inertial>
+      <origin
+        xyz="0.337027644494348 0.438004103108334 0.000500034255353365"
+        rpy="0 0 0" />
+      <mass
+        value="0.0699475765514854" />
+      <inertia
+        ixx="2.00048929888851E-05"
+        ixy="5.99286091672389E-07"
+        ixz="-2.22576011146278E-11"
+        iyy="1.66038436073326E-05"
+        iyz="1.75081591704393E-12"
+        izz="2.01078617084662E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_green_button_Link.STL" />
+      </geometry>
+    </visual>
+  </link>
+  <joint
+    name="visual_green_button_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="visual_sprayer_tower_Link" />
+    <child
+      link="visual_green_button_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  
+   <link
+    name="visual_antenna_support_Link">
+    <inertial>
+      <origin
+        xyz="0.752420346131319 0.486280950399453 0.000499977823830204"
+        rpy="0 0 0" />
+      <mass
+        value="0.0260224094976131" />
+      <inertia
+        ixx="5.76388301679054E-05"
+        ixy="8.90900956254767E-06"
+        ixz="-2.71916494606316E-11"
+        iyy="4.14336401906931E-05"
+        iyz="6.11420571711582E-11"
+        izz="2.74105924693398E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_antenna_support_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+  </link>
+  <joint
+    name="visual_antenna_support_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="visual_sprayer_tower_Link" />
+    <child
+      link="visual_antenna_support_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  
+  <link
+    name="visual_antenna_bullet_Link">
+    <inertial>
+      <origin
+        xyz="0.844119897283366 0.399036528573932 -0.000818645285809928"
+        rpy="0 0 0" />
+      <mass
+        value="0.319114831084947" />
+      <inertia
+        ixx="3.89191757491914E-05"
+        ixy="3.96951262901185E-05"
+        ixz="1.28402929279908E-18"
+        iyy="0.00276735465504274"
+        iyz="-1.15024884346354E-20"
+        izz="0.00277153076613602" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_antenna_bullet_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+  </link>
+  <joint
+    name="visual_antenna_bullet_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="visual_antenna_support_Link" />
+    <child
+      link="visual_antenna_bullet_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  
+  <link
+    name="visual_container_Link">
+    <inertial>
+      <origin
+        xyz="-0.321333420449987 -0.162782269380341 0.00253916078129191"
+        rpy="0 0 0" />
+      <mass
+        value="9.23709733249894" />
+      <inertia
+        ixx="0.398250031149431"
+        ixy="0.00210414221352622"
+        ixz="7.46844436332642E-05"
+        iyy="0.250471486827449"
+        iyz="0.000196577551705805"
+        izz="0.492942411241979" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_container_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.956862745098039 0.811764705882353 0.2 1" />
+      </material>
+    </visual>
+  </link>
+  <joint
+    name="visual_container_Joint"
+    type="fixed">
+    <origin
+      xyz="-0.03795995298197 -0.0111740400016624 0.951094869314497"
+      rpy="1.5707963267949 -1.5707963267949 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="visual_container_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="visual_lid_Link">
+    <inertial>
+      <origin
+        xyz="-0.0627961336838383 -0.164002796622742 0.00172075953796179"
+        rpy="0 0 0" />
+      <mass
+        value="0.269080445654338" />
+      <inertia
+        ixx="0.00268251966470098"
+        ixy="4.06152200238371E-06"
+        ixz="-3.39132145097371E-06"
+        iyy="0.00142178456298089"
+        iyz="1.64604231766932E-06"
+        izz="0.00141059392464856" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_lid_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
+      </material>
+    </visual>
+  </link>
+  <joint
+    name="visual_lid_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="visual_container_Link" />
+    <child
+      link="visual_lid_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  
+  <link
+    name="visual_gps_antenas_Link">
+    <inertial>
+      <origin
+        xyz="1.00227623924569 0.0346595542141164 -0.000810965499740709"
+        rpy="0 0 0" />
+      <mass
+        value="1.19619506387522" />
+      <inertia
+        ixx="0.00256969591281657"
+        ixy="1.4873531871246E-05"
+        ixz="-1.88737851857961E-06"
+        iyy="0.00150315485132295"
+        iyz="4.12616906436238E-07"
+        izz="0.00147508634785692" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_gps_antenas_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <joint
+    name="visual_gps_antenas_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="sprayer_nozzle_Link" />
+    <child
+      link="visual_gps_antenas_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  
+    <link
+    name="visual_nozzle_black_Link">
+    <inertial>
+      <origin
+        xyz="-0.0637903755986046 0.0599860554724972 -0.000749987217129862"
+        rpy="0 0 0" />
+      <mass
+        value="0.673691763980154" />
+      <inertia
+        ixx="0.000803820013350638"
+        ixy="1.88534457917944E-06"
+        ixz="-2.19216830466321E-11"
+        iyy="0.002024965684105"
+        iyz="1.62790531563686E-10"
+        izz="0.00162319612829105" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_nozzle_black_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.109803921568627 0.109803921568627 0.109803921568627 1" />
+      </material>
+    </visual>
+  </link>
+  <joint
+    name="visual_nozzle_black_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="sprayer_nozzle_Link" />
+    <child
+      link="visual_nozzle_black_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  
+    <link
+    name="visual_nozzle_parts_Link">
+    <inertial>
+      <origin
+        xyz="0.671565935986338 0.0589892166933225 0.00561580745425312"
+        rpy="0 0 0" />
+      <mass
+        value="4.98840610120662" />
+      <inertia
+        ixx="0.165622600796427"
+        ixy="-0.000319991526713052"
+        ixz="3.16446630422105E-05"
+        iyy="0.248686738679335"
+        iyz="0.000285086276350802"
+        izz="0.107907030832933" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="$(find weta_description)/meshes/visual_nozzle_parts_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+  </link>
+  <joint
+    name="visual_nozzle_parts_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="sprayer_nozzle_Link" />
+    <child
+      link="visual_nozzle_parts_Link" />
+    <axis
+      xyz="0 0 0" />    
+  </joint>
+  
+
+    <gazebo>
+    <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
+        <always_on>true</always_on>
+        <update_rate>40</update_rate>
+        <legacy_mode>false</legacy_mode>
+        <left_joint>FWL_Joint</left_joint>
+        <right_joint>FWR_Joint</right_joint>
+        <wheel_separation>1.0</wheel_separation>
+        <wheel_diameter>0.4</wheel_diameter>
+        <torque>420</torque>
+        <command_topic>cmd_vel</command_topic>
+        <odometry_topic>odom</odometry_topic>
+        <odometry_frame>odom</odometry_frame>
+        <robot_base_frame>base_link</robot_base_frame>
+        <publish_wheel_tf>false</publish_wheel_tf>
+        <publish_wheel_joint_state>false</publish_wheel_joint_state>
+        <ros_debug_level>na</ros_debug_level>
+        <wheel_acceleration>0</wheel_acceleration>
+        <wheel_torque>420</wheel_torque>
+        <odometry_source>1</odometry_source>
+        <publish_tf>1</publish_tf>
+        <publish_odom>true</publish_odom>
+        <publish_odom_tf>false</publish_odom_tf>      
+        
+           <!-- limits -->
+        <max_wheel_torque>420</max_wheel_torque>
+        <max_wheel_acceleration>1.0</max_wheel_acceleration> 
+        
+    </plugin>
+</gazebo> 
+
+
+    <gazebo>
+    <plugin name="differential_drive_controller_1" filename="libgazebo_ros_diff_drive.so">
+        <always_on>true</always_on>
+        <update_rate>40</update_rate>
+        <legacy_mode>false</legacy_mode>
+        <left_joint>BWL_Joint</left_joint>
+        <right_joint>BWR_Joint</right_joint>
+        <wheel_separation>1.0</wheel_separation>
+        <wheel_diameter>0.4</wheel_diameter>
+        <torque>420</torque>
+        <command_topic>cmd_vel</command_topic>
+        <odometry_topic>odom</odometry_topic>
+        <odometry_frame>odom</odometry_frame>
+        <robot_base_frame>base_link</robot_base_frame>
+        <publish_wheel_tf>false</publish_wheel_tf>
+        <publish_wheel_joint_state>false</publish_wheel_joint_state>
+        <ros_debug_level>na</ros_debug_level>
+        <wheel_acceleration>0</wheel_acceleration>
+        <wheel_torque>420</wheel_torque>
+        <odometry_source>1</odometry_source>
+        <publish_tf>1</publish_tf>
+        <publish_odom>true</publish_odom>
+        <publish_odom_tf>false</publish_odom_tf>
+        
+           <!-- limits -->
+      <max_wheel_torque>420</max_wheel_torque>
+      <max_wheel_acceleration>1.0</max_wheel_acceleration>
+    </plugin>
+</gazebo> 
+
+
+
+  
+  
+</robot>

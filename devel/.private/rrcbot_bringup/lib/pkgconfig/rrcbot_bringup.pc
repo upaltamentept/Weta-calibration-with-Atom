@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/devel/.private/rrcbot_bringup
+
+Name: rrcbot_bringup
+Description: Description of rrcbot_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

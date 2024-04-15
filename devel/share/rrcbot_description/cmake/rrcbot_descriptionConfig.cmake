@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rrcbot_description/share/rrcbot_description/cmake/rrcbot_descriptionConfig.cmake

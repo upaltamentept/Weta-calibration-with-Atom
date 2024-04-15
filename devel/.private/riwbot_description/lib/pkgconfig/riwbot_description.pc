@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/devel/.private/riwbot_description
+
+Name: riwbot_description
+Description: Description of riwbot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

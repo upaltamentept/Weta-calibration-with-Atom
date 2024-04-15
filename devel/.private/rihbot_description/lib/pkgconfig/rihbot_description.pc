@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/devel/.private/rihbot_description
+
+Name: rihbot_description
+Description: Description of rihbot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

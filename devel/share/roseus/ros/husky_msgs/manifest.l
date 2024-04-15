@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/roseus/ros/husky_msgs/manifest.l

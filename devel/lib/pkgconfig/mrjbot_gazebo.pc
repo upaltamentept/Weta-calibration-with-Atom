@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/mrjbot_gazebo/lib/pkgconfig/mrjbot_gazebo.pc

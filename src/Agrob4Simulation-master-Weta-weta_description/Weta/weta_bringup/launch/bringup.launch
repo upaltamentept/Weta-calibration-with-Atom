@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="use_sim_time" default="true" />
+
+
+
+    <include file="$(find weta_bringup)/launch/load_model.launch" />
+
+    <arg name="robot_description" default="robot_description"/>
+
+    <param name="$(arg robot_description)" command="$(find xacro)/xacro '$(find weta_description)/robot/weta.urdf.xacro'"  />
+
+    <node pkg="gazebo_ros" type="spawn_model" name="spawn_robot" output="screen" args="-urdf -param robot_description" />
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+</launch>

@@ -1,0 +1,5 @@
+atom/atom_examples/riwmpbot/riwmpbot_gazebo
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_gazebo/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_gazebo/lib/pkgconfig/riwmpbot_gazebo.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/riwmpbot_gazebo.pc
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_gazebo/share/riwmpbot_gazebo/cmake/riwmpbot_gazeboConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/riwmpbot_gazebo/cmake/riwmpbot_gazeboConfig-version.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_gazebo/share/riwmpbot_gazebo/cmake/riwmpbot_gazeboConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/riwmpbot_gazebo/cmake/riwmpbot_gazeboConfig.cmake

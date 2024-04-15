@@ -1,0 +1,7 @@
+set(atom_calibration_SETUP_PY_SETUP_MODULE "distutils.core")
+set(atom_calibration_SETUP_PY_VERSION "0.0.0")
+set(atom_calibration_SETUP_PY_SCRIPTS "")
+set(atom_calibration_SETUP_PY_PACKAGES "atom_calibration")
+set(atom_calibration_SETUP_PY_PACKAGE_DIRS "src/atom_calibration")
+set(atom_calibration_SETUP_PY_MODULES "")
+set(atom_calibration_SETUP_PY_MODULE_DIRS "")

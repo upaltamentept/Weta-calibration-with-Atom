@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/atom_core/share/atom_core/cmake/atom_coreConfig-version.cmake

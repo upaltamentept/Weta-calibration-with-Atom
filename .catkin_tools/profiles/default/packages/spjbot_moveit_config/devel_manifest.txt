@@ -1,0 +1,5 @@
+atom/atom_examples/spjbot/spjbot_moveit_config
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_moveit_config/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_moveit_config/lib/pkgconfig/spjbot_moveit_config.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/spjbot_moveit_config.pc
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_moveit_config/share/spjbot_moveit_config/cmake/spjbot_moveit_configConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/spjbot_moveit_config/cmake/spjbot_moveit_configConfig.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_moveit_config/share/spjbot_moveit_config/cmake/spjbot_moveit_configConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/spjbot_moveit_config/cmake/spjbot_moveit_configConfig-version.cmake

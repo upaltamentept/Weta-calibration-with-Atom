@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Mowit_URDF" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+     <xacro:include filename="$(find agrob_simulator)/launch/weta_v2/weta.gazebo" />
+
+<link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0323084112717895 0.0685315261453427 0.0111740400016626"
+        rpy="0 0 0" />
+      <mass
+        value="135.026170373349" />
+      <inertia
+        ixx="3.05963266025446"
+        ixy="-0.00481912640605503"
+        ixz="-9.48376216412422E-16"
+        iyy="20.8553346808319"
+        iyz="5.443899791529E-17"
+        izz="18.935411898856" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/visual_base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.505882352941176 0.509803921568627 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="left_body_Link">
+    <inertial>
+      <origin
+        xyz="-0.132560453147225 0.165328017104428 -0.000919170306823286"
+        rpy="0 0 0" />
+      <mass
+        value="130.911490643377" />
+      <inertia
+        ixx="18.0533691224711"
+        ixy="0.255828985116694"
+        ixz="-2.10400366949539E-05"
+        iyy="17.0578722644908"
+        iyz="-0.000227963196114239"
+        izz="2.87351368871619" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/visual_left_body_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/left_body_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_body_Joint"
+    type="fixed">
+    <origin
+      xyz="-0.03546 0.23383 0.026095"
+      rpy="1.5708 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_body_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="BWL_Link">
+    <inertial>
+      <origin
+        xyz="-5.55111512312578E-17 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="21.7905908709197" />
+      <inertia
+        ixx="0.480537005180957"
+        ixy="7.33508474913107E-34"
+        ixz="0"
+        iyy="0.28881112949124"
+        iyz="-2.24752719453376E-33"
+        izz="0.28881112949124" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/visual_BWL_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/BWL_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="BWL_Joint"
+    type="continuous">
+    <origin
+      xyz="-0.26312 -0.015 0.45"
+      rpy="3.1416 0 3.1416" />
+    <parent
+      link="left_body_Link" />
+    <child
+      link="BWL_Link" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="FWL_Link">
+    <inertial>
+      <origin
+        xyz="-5.55111512312578E-17 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="21.7905908709197" />
+      <inertia
+        ixx="0.480537005180957"
+        ixy="7.33508474913107E-34"
+        ixz="0"
+        iyy="0.28881112949124"
+        iyz="-2.24752719453377E-33"
+        izz="0.28881112949124" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/visual_FWL_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/FWL_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="FWL_Joint"
+    type="continuous">
+    <origin
+      xyz="-0.26312 -0.015 -0.45"
+      rpy="3.1416 0 3.1416" />
+    <parent
+      link="left_body_Link" />
+    <child
+      link="FWL_Link" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="right_body_Link">
+    <inertial>
+      <origin
+        xyz="-0.132560453147225 0.165328017104428 -0.000919170306823397"
+        rpy="0 0 0" />
+      <mass
+        value="130.911490643377" />
+      <inertia
+        ixx="18.0533691224711"
+        ixy="0.255828985116694"
+        ixz="-2.10400366963686E-05"
+        iyy="17.0578722644908"
+        iyz="-0.00022796319611144"
+        izz="2.8735136887162" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/visual_right_body_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/right_body_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_body_Joint"
+    type="revolute">
+    <origin
+      xyz="-0.03546 -0.25617 0.026095"
+      rpy="1.5708 0 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_body_Link" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.4"
+      upper="0.4"
+      effort="2"
+      velocity="5" />
+  </joint>
+  <link
+    name="BWR_Link">
+    <inertial>
+      <origin
+        xyz="1.11022302462516E-16 0 -5.55111512312578E-17"
+        rpy="0 0 0" />
+      <mass
+        value="21.7905908709197" />
+      <inertia
+        ixx="0.480537005180957"
+        ixy="-7.33248951617695E-34"
+        ixz="-1.47722546001147E-19"
+        iyy="0.28881112949124"
+        iyz="-7.70889582205366E-18"
+        izz="0.28881112949124" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/visual_BWR_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/BWR_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="BWR_Joint"
+    type="continuous">
+    <origin
+      xyz="-0.26312 -0.015 -0.45"
+      rpy="3.1416 0 3.1416" />
+    <parent
+      link="right_body_Link" />
+    <child
+      link="BWR_Link" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+  <link
+    name="FWR_Link">
+    <inertial>
+      <origin
+        xyz="1.11022302462516E-16 0 5.55111512312578E-17"
+        rpy="0 0 0" />
+      <mass
+        value="21.7905908709197" />
+      <inertia
+        ixx="0.480537005180957"
+        ixy="-1.11935743784922E-33"
+        ixz="-1.4772254600115E-19"
+        iyy="0.28881112949124"
+        iyz="1.37507593355059E-18"
+        izz="0.28881112949124" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/visual_FWR_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/FWR_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="FWR_Joint"
+    type="continuous">
+    <origin
+      xyz="-0.26312 -0.015 0.45"
+      rpy="3.1416 0 3.1416" />
+    <parent
+      link="right_body_Link" />
+    <child
+      link="FWR_Link" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+  <link
+    name="sprayer_body_Link">
+    <inertial>
+      <origin
+        xyz="-0.0099431913226482 0.12051440723685 -0.00452407541768585"
+        rpy="0 0 0" />
+      <mass
+        value="25.7804306216418" />
+      <inertia
+        ixx="9.60226456534398"
+        ixy="-1.66375880381071"
+        ixz="0.0612220052988588"
+        iyy="6.72903921236461"
+        iyz="0.0480823561416954"
+        izz="8.87721691534554" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/visual_sprayer_middle_body_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/sprayer_body_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="sprayer_body_Joint"
+    type="fixed">
+    <origin
+      xyz="-0.03796 -0.011174 0.95109"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="sprayer_body_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="sprayer_nozzle_Link">
+    <inertial>
+      <origin
+        xyz="0.330446527133933 0.213217584485548 0.00130942051372903"
+        rpy="0 0 0" />
+      <mass
+        value="36.1007712187427" />
+      <inertia
+        ixx="11.5884752892697"
+        ixy="-0.355866355873022"
+        ixz="-4.87396421170487E-05"
+        iyy="19.1093791966868"
+        iyz="0.000150748403767925"
+        izz="10.1097535059728" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/visual_sprayer_nozzle_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agrob_simulator/launch/weta_v2/meshes/sprayer_nozzle_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="sprayer_nozzle_Joint"
+    type="prismatic">
+    <origin
+      xyz="-0.245 0.72 0.00125"
+      rpy="0 0 0" />
+    <parent
+      link="sprayer_body_Link" />
+    <child
+      link="sprayer_nozzle_Link" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-0.15"
+      upper="0.5"
+      effort="2"
+      velocity="0.5" />
+  </joint>
+  
+  
+  
+  
+  
+ 
+  
+
+    <gazebo>
+    <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
+        <alwaysOn>true</alwaysOn>
+        <updateRate>40</updateRate>
+        <legacyMode>false</legacyMode>
+        <leftJoint>FWL_Joint</leftJoint>
+        <rightJoint>FWR_Joint</rightJoint>
+        <wheelSeparation>1.0</wheelSeparation>
+        <wheelDiameter>0.4</wheelDiameter>
+        <torque>220</torque>
+        <commandTopic>cmd_vel</commandTopic>
+        <odometryTopic>odom</odometryTopic>
+        <odometryFrame>odom</odometryFrame>
+        <robotBaseFrame>base_link</robotBaseFrame>
+        <publishWheelTF>false</publishWheelTF>
+        <publishWheelJointState>false</publishWheelJointState>
+        <rosDebugLevel>na</rosDebugLevel>
+        <wheelAcceleration>0</wheelAcceleration>
+        <wheelTorque>220</wheelTorque>
+        <odometrySource>world</odometrySource>
+        <publishTf>1</publishTf>
+    </plugin>
+</gazebo> 
+
+    <gazebo>
+    <plugin name="differential_drive_controller_1" filename="libgazebo_ros_diff_drive.so">
+        <alwaysOn>true</alwaysOn>
+        <updateRate>40</updateRate>
+        <legacyMode>false</legacyMode>
+        <leftJoint>BWL_Joint</leftJoint>
+        <rightJoint>BWR_Joint</rightJoint>
+        <wheelSeparation>1.0</wheelSeparation>
+        <wheelDiameter>0.4</wheelDiameter>
+        <torque>220</torque>
+        <commandTopic>cmd_vel</commandTopic>
+        <odometryTopic>odom</odometryTopic>
+        <odometryFrame>odom</odometryFrame>
+        <robotBaseFrame>base_link</robotBaseFrame>
+        <publishWheelTF>false</publishWheelTF>
+        <publishWheelJointState>false</publishWheelJointState>
+        <rosDebugLevel>na</rosDebugLevel>
+        <wheelAcceleration>0</wheelAcceleration>
+        <wheelTorque>220</wheelTorque>
+        <odometrySource>world</odometrySource>
+        <publishTf>1</publishTf>
+    </plugin>
+</gazebo> 
+  
+  
+</robot>

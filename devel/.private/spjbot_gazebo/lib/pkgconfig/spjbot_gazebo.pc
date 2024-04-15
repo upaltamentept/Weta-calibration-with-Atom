@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/devel/.private/spjbot_gazebo
+
+Name: spjbot_gazebo
+Description: Description of spjbot_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

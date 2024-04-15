@@ -1,0 +1,5 @@
+atom/atom_examples/rihbot/rihbot_bringup
+/home/pedro/ros/workspaces/atom/devel/.private/rihbot_bringup/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/rihbot_bringup/lib/pkgconfig/rihbot_bringup.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/rihbot_bringup.pc
+/home/pedro/ros/workspaces/atom/devel/.private/rihbot_bringup/share/rihbot_bringup/cmake/rihbot_bringupConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/rihbot_bringup/cmake/rihbot_bringupConfig.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/rihbot_bringup/share/rihbot_bringup/cmake/rihbot_bringupConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/rihbot_bringup/cmake/rihbot_bringupConfig-version.cmake

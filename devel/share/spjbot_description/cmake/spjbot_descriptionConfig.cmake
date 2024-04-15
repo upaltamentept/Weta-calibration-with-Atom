@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_description/share/spjbot_description/cmake/spjbot_descriptionConfig.cmake

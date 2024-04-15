@@ -1,0 +1,5 @@
+Agrob4Simulation-master-Weta-weta_description/Weta/weta_description
+/home/pedro/ros/workspaces/atom/devel/.private/weta_description/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/weta_description/lib/pkgconfig/weta_description.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/weta_description.pc
+/home/pedro/ros/workspaces/atom/devel/.private/weta_description/share/weta_description/cmake/weta_descriptionConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/weta_description/cmake/weta_descriptionConfig.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/weta_description/share/weta_description/cmake/weta_descriptionConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/weta_description/cmake/weta_descriptionConfig-version.cmake

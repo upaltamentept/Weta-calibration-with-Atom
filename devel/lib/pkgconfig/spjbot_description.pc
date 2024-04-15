@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_description/lib/pkgconfig/spjbot_description.pc

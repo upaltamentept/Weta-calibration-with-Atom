@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rviz/share/gennodejs/ros/rviz/_index.js

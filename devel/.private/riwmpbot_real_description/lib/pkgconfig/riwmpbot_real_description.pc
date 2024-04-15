@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_real_description
+
+Name: riwmpbot_real_description
+Description: Description of riwmpbot_real_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

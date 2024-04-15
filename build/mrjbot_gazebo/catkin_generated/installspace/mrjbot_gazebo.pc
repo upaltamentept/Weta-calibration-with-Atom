@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/install
+
+Name: mrjbot_gazebo
+Description: Description of mrjbot_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

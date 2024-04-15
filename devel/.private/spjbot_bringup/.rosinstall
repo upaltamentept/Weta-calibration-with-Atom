@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/pedro/ros/workspaces/atom/devel/.private/spjbot_bringup/setup.sh

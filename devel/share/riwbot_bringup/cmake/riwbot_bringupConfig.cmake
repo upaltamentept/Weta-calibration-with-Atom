@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/riwbot_bringup/share/riwbot_bringup/cmake/riwbot_bringupConfig.cmake

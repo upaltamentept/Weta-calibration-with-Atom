@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/atom_calibration/share/atom_calibration/cmake/atom_calibrationConfig.cmake

@@ -1,0 +1,5 @@
+atom/atom_examples/rihmpbot/rihmpbot_calibration
+/home/pedro/ros/workspaces/atom/devel/.private/rihmpbot_calibration/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/rihmpbot_calibration/lib/pkgconfig/rihmpbot_calibration.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/rihmpbot_calibration.pc
+/home/pedro/ros/workspaces/atom/devel/.private/rihmpbot_calibration/share/rihmpbot_calibration/cmake/rihmpbot_calibrationConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/rihmpbot_calibration/cmake/rihmpbot_calibrationConfig-version.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/rihmpbot_calibration/share/rihmpbot_calibration/cmake/rihmpbot_calibrationConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/rihmpbot_calibration/cmake/rihmpbot_calibrationConfig.cmake

@@ -1,0 +1,7 @@
+set(atom_evaluation_SETUP_PY_SETUP_MODULE "distutils.core")
+set(atom_evaluation_SETUP_PY_VERSION "0.0.0")
+set(atom_evaluation_SETUP_PY_SCRIPTS "")
+set(atom_evaluation_SETUP_PY_PACKAGES "atom_evaluation")
+set(atom_evaluation_SETUP_PY_PACKAGE_DIRS "src/atom_evaluation")
+set(atom_evaluation_SETUP_PY_MODULES "")
+set(atom_evaluation_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,5 @@
+atom/atom_examples/riwmpbot/riwmpbot_calibration
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_calibration/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_calibration/lib/pkgconfig/riwmpbot_calibration.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/riwmpbot_calibration.pc
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_calibration/share/riwmpbot_calibration/cmake/riwmpbot_calibrationConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/riwmpbot_calibration/cmake/riwmpbot_calibrationConfig-version.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_calibration/share/riwmpbot_calibration/cmake/riwmpbot_calibrationConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/riwmpbot_calibration/cmake/riwmpbot_calibrationConfig.cmake

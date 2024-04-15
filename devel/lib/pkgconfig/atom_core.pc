@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/atom_core/lib/pkgconfig/atom_core.pc

@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/mrjbot_calibration/share/mrjbot_calibration/cmake/mrjbot_calibrationConfig-version.cmake

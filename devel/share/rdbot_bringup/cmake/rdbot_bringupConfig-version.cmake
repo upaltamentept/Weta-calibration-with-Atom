@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rdbot_bringup/share/rdbot_bringup/cmake/rdbot_bringupConfig-version.cmake

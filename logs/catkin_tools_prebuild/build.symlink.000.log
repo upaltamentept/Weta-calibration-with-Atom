@@ -1,0 +1,12 @@
+Symlinking /home/pedro/ros/workspaces/atom/devel/./_setup_util.py
+Symlinking /home/pedro/ros/workspaces/atom/devel/./setup.sh
+Symlinking /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+Symlinking /home/pedro/ros/workspaces/atom/devel/./local_setup.bash
+Symlinking /home/pedro/ros/workspaces/atom/devel/./env.sh
+Symlinking /home/pedro/ros/workspaces/atom/devel/./local_setup.sh
+Symlinking /home/pedro/ros/workspaces/atom/devel/./setup.bash
+Symlinking /home/pedro/ros/workspaces/atom/devel/./local_setup.zsh
+Symlinking /home/pedro/ros/workspaces/atom/devel/./setup.zsh
+Symlinking /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/pedro/ros/workspaces/atom/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/pedro/ros/workspaces/atom/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake

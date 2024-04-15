@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/agrob_description/share/agrob_description/cmake/agrob_descriptionConfig.cmake

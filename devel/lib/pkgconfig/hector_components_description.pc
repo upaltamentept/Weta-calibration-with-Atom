@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/hector_components_description/lib/pkgconfig/hector_components_description.pc

@@ -1,0 +1,5 @@
+atom/atom_examples/spjbot/spjbot_description
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_description/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_description/lib/pkgconfig/spjbot_description.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/spjbot_description.pc
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_description/share/spjbot_description/cmake/spjbot_descriptionConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/spjbot_description/cmake/spjbot_descriptionConfig.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_description/share/spjbot_description/cmake/spjbot_descriptionConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/spjbot_description/cmake/spjbot_descriptionConfig-version.cmake

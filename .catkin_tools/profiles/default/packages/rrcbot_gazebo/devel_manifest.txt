@@ -1,0 +1,5 @@
+atom/atom_examples/rrcbot/rrcbot_gazebo
+/home/pedro/ros/workspaces/atom/devel/.private/rrcbot_gazebo/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/rrcbot_gazebo/lib/pkgconfig/rrcbot_gazebo.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/rrcbot_gazebo.pc
+/home/pedro/ros/workspaces/atom/devel/.private/rrcbot_gazebo/share/rrcbot_gazebo/cmake/rrcbot_gazeboConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/rrcbot_gazebo/cmake/rrcbot_gazeboConfig.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/rrcbot_gazebo/share/rrcbot_gazebo/cmake/rrcbot_gazeboConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/rrcbot_gazebo/cmake/rrcbot_gazeboConfig-version.cmake

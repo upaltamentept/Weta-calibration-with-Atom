@@ -1,0 +1,5 @@
+atom/atom_examples/mrbot/mrbot_bringup
+/home/pedro/ros/workspaces/atom/devel/.private/mrbot_bringup/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/mrbot_bringup/lib/pkgconfig/mrbot_bringup.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/mrbot_bringup.pc
+/home/pedro/ros/workspaces/atom/devel/.private/mrbot_bringup/share/mrbot_bringup/cmake/mrbot_bringupConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/mrbot_bringup/cmake/mrbot_bringupConfig-version.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/mrbot_bringup/share/mrbot_bringup/cmake/mrbot_bringupConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/mrbot_bringup/cmake/mrbot_bringupConfig.cmake

@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/agrob_description/lib/pkgconfig/agrob_description.pc

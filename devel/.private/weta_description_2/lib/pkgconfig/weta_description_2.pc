@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/devel/.private/weta_description_2
+
+Name: weta_description_2
+Description: Description of weta_description_2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

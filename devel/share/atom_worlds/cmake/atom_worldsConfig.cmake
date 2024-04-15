@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/atom_worlds/share/atom_worlds/cmake/atom_worldsConfig.cmake

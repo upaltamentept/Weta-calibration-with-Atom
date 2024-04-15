@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/pedro/ros/workspaces/atom/src/Agrob4Simulation-ros-melodic-AgRob_simulator-launch-weta_v2/AgRob_simulator/launch/weta_v2/CMakeLists.txt:2 (project):
+  VERSION not allowed unless CMP0048 is set to NEW
+
+
+make: *** [Makefile:614: cmake_check_build_system] Error 1

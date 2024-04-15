@@ -1,0 +1,2 @@
+set(atom_msgs_MESSAGE_FILES "msg/ImageWithRGBLabels.msg;msg/RGBLabels.msg;msg/Detection2D.msg;msg/PointCloudWithLidar3DLabels.msg;msg/Lidar3DLabels.msg;msg/DepthImageWithDepthLabels.msg;msg/DepthLabels.msg")
+set(atom_msgs_SERVICE_FILES "srv/SetSensorInteractiveMarker.srv;srv/GetSensorInteractiveMarker.srv;srv/SetAdditionalTfsInteractiveMarker.srv;srv/GetAdditionalTfsInteractiveMarker.srv;srv/GetDataset.srv;srv/SaveCollection.srv;srv/DeleteCollection.srv;srv/ToggleAutomaticDataCollector.srv")

@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rlbot_calibration/share/rlbot_calibration/cmake/rlbot_calibrationConfig-version.cmake

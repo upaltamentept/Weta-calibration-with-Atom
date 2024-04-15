@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="rslidar2base" args="0.000 0.000 0.000 0.000 0.000 0.000 //rslidar /rslidar 100"/>
+    <!-- <node pkg="tf" type="static_transform_publisher" name="robosense2base" args="0.000 0.000 0.900 3.14 0.000 0.000 base_link rslidar"/> -->
+</launch>

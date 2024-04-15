@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rviz/lib/python3/dist-packages/rviz/srv/__init__.py

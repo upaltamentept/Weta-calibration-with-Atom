@@ -1,0 +1,6 @@
+atom/atom_rviz_plugins/selected_points_publisher
+/home/pedro/ros/workspaces/atom/devel/.private/selected_points_publisher/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/selected_points_publisher/lib/libselected_points_publisher.so /home/pedro/ros/workspaces/atom/devel/lib/libselected_points_publisher.so
+/home/pedro/ros/workspaces/atom/devel/.private/selected_points_publisher/lib/pkgconfig/selected_points_publisher.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/selected_points_publisher.pc
+/home/pedro/ros/workspaces/atom/devel/.private/selected_points_publisher/share/selected_points_publisher/cmake/selected_points_publisherConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/selected_points_publisher/cmake/selected_points_publisherConfig-version.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/selected_points_publisher/share/selected_points_publisher/cmake/selected_points_publisherConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/selected_points_publisher/cmake/selected_points_publisherConfig.cmake

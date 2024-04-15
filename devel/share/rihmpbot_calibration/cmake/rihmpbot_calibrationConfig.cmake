@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rihmpbot_calibration/share/rihmpbot_calibration/cmake/rihmpbot_calibrationConfig.cmake

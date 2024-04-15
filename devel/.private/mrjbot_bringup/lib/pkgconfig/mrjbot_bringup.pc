@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/devel/.private/mrjbot_bringup
+
+Name: mrjbot_bringup
+Description: Description of mrjbot_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

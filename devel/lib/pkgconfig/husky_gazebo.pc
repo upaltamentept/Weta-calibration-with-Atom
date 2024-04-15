@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/husky_gazebo/lib/pkgconfig/husky_gazebo.pc

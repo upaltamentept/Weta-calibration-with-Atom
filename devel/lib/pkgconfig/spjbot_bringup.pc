@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_bringup/lib/pkgconfig/spjbot_bringup.pc

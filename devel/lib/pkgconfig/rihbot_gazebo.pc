@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rihbot_gazebo/lib/pkgconfig/rihbot_gazebo.pc

@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/mrbot_bringup/lib/pkgconfig/mrbot_bringup.pc

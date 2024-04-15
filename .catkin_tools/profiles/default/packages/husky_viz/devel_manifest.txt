@@ -1,0 +1,5 @@
+husky/husky_viz
+/home/pedro/ros/workspaces/atom/devel/.private/husky_viz/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/husky_viz/lib/pkgconfig/husky_viz.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/husky_viz.pc
+/home/pedro/ros/workspaces/atom/devel/.private/husky_viz/share/husky_viz/cmake/husky_vizConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/husky_viz/cmake/husky_vizConfig.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/husky_viz/share/husky_viz/cmake/husky_vizConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/husky_viz/cmake/husky_vizConfig-version.cmake

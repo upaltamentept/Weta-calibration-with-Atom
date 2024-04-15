@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_bringup/share/spjbot_bringup/cmake/spjbot_bringupConfig-version.cmake

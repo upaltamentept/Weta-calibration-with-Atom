@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_description/lib/pkgconfig/riwmpbot_description.pc

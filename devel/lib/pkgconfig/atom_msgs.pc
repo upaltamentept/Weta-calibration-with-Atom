@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/atom_msgs/lib/pkgconfig/atom_msgs.pc

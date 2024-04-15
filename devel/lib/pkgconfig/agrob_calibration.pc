@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/agrob_calibration/lib/pkgconfig/agrob_calibration.pc

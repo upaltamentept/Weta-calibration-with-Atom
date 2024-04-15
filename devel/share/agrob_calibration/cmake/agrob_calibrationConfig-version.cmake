@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/agrob_calibration/share/agrob_calibration/cmake/agrob_calibrationConfig-version.cmake

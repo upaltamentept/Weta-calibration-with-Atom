@@ -1,0 +1,5 @@
+husky/husky_navigation
+/home/pedro/ros/workspaces/atom/devel/.private/husky_navigation/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/husky_navigation/lib/pkgconfig/husky_navigation.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/husky_navigation.pc
+/home/pedro/ros/workspaces/atom/devel/.private/husky_navigation/share/husky_navigation/cmake/husky_navigationConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/husky_navigation/cmake/husky_navigationConfig.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/husky_navigation/share/husky_navigation/cmake/husky_navigationConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/husky_navigation/cmake/husky_navigationConfig-version.cmake

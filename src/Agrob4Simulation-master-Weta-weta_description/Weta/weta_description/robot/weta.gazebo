@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<robot>
+  <gazebo reference="base_link">
+   <material>Gazebo/Grey</material>
+   </gazebo>
+
+  
+  <gazebo reference="left_body_Link">
+     <visual>  
+    <material>  <!--azul ceu -->
+      <ambient>0.0 0.48627451 0.690196078 1.0</ambient>  
+      <diffuse>0.0 0.48627451 0.690196078 1.0</diffuse>  
+      <specular>0.0 0.48627451 0.690196078 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo> 
+  
+    <gazebo reference="right_body_Link">
+     <visual>  
+    <material>  <!--azul ceu -->
+      <ambient>0.0 0.48627451 0.690196078 1.0</ambient>  
+      <diffuse>0.0 0.48627451 0.690196078 1.0</diffuse>  
+      <specular>0.0 0.48627451 0.690196078 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo> 
+  
+
+  
+   <gazebo reference="FWR_Link">
+      <!-- <mu1 value="25.0"/>
+      <mu2 value="12.5"/> -->
+
+   <visual>  
+    <material>  
+      <ambient>0.250980392 0.250980392 0.250980392 1.0</ambient>  
+      <diffuse>0.250980392 0.250980392 0.250980392 1.0</diffuse>  
+      <specular>0.250980392 0.250980392 0.250980392 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo> 
+  
+   <gazebo reference="FWL_Link">
+      <!-- <mu1 value="25.0"/>
+      <mu2 value="12.5"/> -->
+
+   
+   <visual>  
+    <material>  
+      <ambient>0.250980392 0.250980392 0.250980392 1.0</ambient>  
+      <diffuse>0.250980392 0.250980392 0.250980392 1.0</diffuse>  
+      <specular>0.250980392 0.250980392 0.250980392 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo> 
+  
+  
+     <gazebo reference="BWR_Link">
+      <!-- <mu1 value="25.0"/>
+      <mu2 value="12.5"/> -->
+
+   <visual>  
+    <material>  
+      <ambient>0.250980392 0.250980392 0.250980392 1.0</ambient>  
+      <diffuse>0.250980392 0.250980392 0.250980392 1.0</diffuse>  
+      <specular>0.250980392 0.250980392 0.250980392 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo> 
+    
+   
+   
+ <gazebo reference="BWL_Link">
+      <!-- <mu1 value="25.0"/>
+      <mu2 value="12.5"/> -->
+  
+   <visual>  
+    <material>  
+      <ambient>0.250980392 0.250980392 0.250980392 1.0</ambient>  
+      <diffuse>0.250980392 0.250980392 0.250980392 1.0</diffuse>  
+      <specular>0.250980392 0.250980392 0.250980392 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo>   
+  
+ 
+  <gazebo reference="visual_Rim_FWL_Link">
+          <material>Gazebo/Grey</material>
+  </gazebo> 
+  
+  <gazebo reference="visual_Rim_FWR_Link">
+          <material>Gazebo/Grey</material>
+  </gazebo> 
+  
+  <gazebo reference="visual_Rim_BWR_Link">
+          <material>Gazebo/Grey</material>
+  </gazebo> 
+   
+   <gazebo reference="visual_Rim_BWL_Link">
+          <material>Gazebo/Grey</material>
+  </gazebo> 
+  
+  
+    <gazebo reference="sprayer_body_Link">
+     <visual>  
+    <material>  <!--azul ceu -->
+      <ambient>0.0 0.55 0.690196078 1.0</ambient>  
+      <diffuse>0.0 0.55 0.690196078 1.0</diffuse>  
+      <specular>0.0 0.55 0.690196078 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo> 
+
+    <gazebo reference="visual_sprayer_front_body_Link">
+     <visual>  
+    <material> 
+      <ambient>0.45 0.45 0.45 1.0</ambient>  
+      <diffuse>0.45 0.45 0.45 1.0</diffuse>  
+      <specular>0.45 0.45 0.45 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo>   
+  
+  
+  
+  <gazebo reference="sprayer_nozzle_Link">
+     <visual>  
+    <material> 
+      <ambient>0.45 0.45 0.45 1.0</ambient>  
+      <diffuse>0.45 0.45 0.45 1.0</diffuse>  
+      <specular>0.45 0.45 0.45 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo> 
+  
+  
+  <gazebo reference="visual_Lidar_Link">
+          <visual>  
+    <material>  
+      <ambient>0.55 0.0 0.55 1.0</ambient>  
+      <diffuse>0.55 0.0 0.55 1.0</diffuse>  
+      <specular>0.55 0.0 0.55 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>
+    </visual> 
+  </gazebo> 
+  
+  <gazebo reference="visual_lidar_support_Link">
+   <visual>  
+    <material>  
+      <ambient>0.250980392 0.250980392 0.250980392 1.0</ambient>  
+      <diffuse>0.250980392 0.250980392 0.250980392 1.0</diffuse>  
+      <specular>0.250980392 0.250980392 0.250980392 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo> 
+    
+  <gazebo reference="visual_sprayer_back_body_Link">
+     <visual>  
+    <material> 
+      <ambient>0.45 0.45 0.45 1.0</ambient>  
+      <diffuse>0.45 0.45 0.45 1.0</diffuse>  
+      <specular>0.45 0.45 0.45 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo>     
+    
+   <gazebo reference="visual_sprayer_tower_Link">
+   <visual>  
+    <material>  
+      <ambient>0.250980392 0.250980392 0.250980392 1.0</ambient>  
+      <diffuse>0.250980392 0.250980392 0.250980392 1.0</diffuse>  
+      <specular>0.250980392 0.250980392 0.250980392 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo>    
+
+    <gazebo reference="visual_green_button_Link">
+          <material>Gazebo/Green</material>
+  </gazebo> 
+  
+  
+    <gazebo reference="visual_antenna_support_Link">
+     <visual>  
+    <material> 
+      <ambient>0.45 0.45 0.45 1.0</ambient>  
+      <diffuse>0.45 0.45 0.45 1.0</diffuse>  
+      <specular>0.45 0.45 0.45 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo>   
+  
+    <gazebo reference="visual_antenna_bullet_Link">
+     <visual>  
+    <material> 
+      <ambient>0.9 0.9 0.9 1.0</ambient>  
+      <diffuse>0.9 0.9 0.9 1.0</diffuse>  
+      <specular>0.9 0.9 0.9 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo>   
+  
+   <gazebo reference="visual_container_Link">
+          <material>Gazebo/Yellow</material>
+  </gazebo>   
+  
+   <gazebo reference="visual_lid_Link">
+          <material>Gazebo/Black</material>
+  </gazebo>    
+  
+  <gazebo reference="visual_nozzle_black_Link">
+          <material>Gazebo/Black</material>
+  </gazebo>  
+  
+  
+   <gazebo reference="visual_nozzle_parts_Link">
+            <visual>  
+    <material> 
+      <ambient>0.7 0.7 0.7 1.0</ambient>  
+      <diffuse>0.7 0.7 0.7 1.0</diffuse>  
+      <specular>0.7 0.7 0.7 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual> 
+  </gazebo>    
+
+
+
+</robot>
+

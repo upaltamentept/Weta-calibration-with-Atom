@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_calibration/share/riwmpbot_calibration/cmake/riwmpbot_calibrationConfig-version.cmake

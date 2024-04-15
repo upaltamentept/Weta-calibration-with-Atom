@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/install
+
+Name: atom_evaluation
+Description: Description of atom_evaluation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

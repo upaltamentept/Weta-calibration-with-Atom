@@ -1,0 +1,5 @@
+atom/atom_examples/riwmpbot/riwmpbot_real_bringup
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_real_bringup/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_real_bringup/lib/pkgconfig/riwmpbot_real_bringup.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/riwmpbot_real_bringup.pc
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_real_bringup/share/riwmpbot_real_bringup/cmake/riwmpbot_real_bringupConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/riwmpbot_real_bringup/cmake/riwmpbot_real_bringupConfig.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_real_bringup/share/riwmpbot_real_bringup/cmake/riwmpbot_real_bringupConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/riwmpbot_real_bringup/cmake/riwmpbot_real_bringupConfig-version.cmake

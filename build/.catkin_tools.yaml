@@ -1,0 +1,6 @@
+devel_space: /home/pedro/ros/workspaces/atom/devel
+install: false
+install_space: /home/pedro/ros/workspaces/atom/install
+profile: default
+source_space: /home/pedro/ros/workspaces/atom/src
+workspace: /home/pedro/ros/workspaces/atom

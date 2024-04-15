@@ -1,0 +1,5 @@
+atom/atom_examples/spjbot/spjbot_bringup
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_bringup/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_bringup/lib/pkgconfig/spjbot_bringup.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/spjbot_bringup.pc
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_bringup/share/spjbot_bringup/cmake/spjbot_bringupConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/spjbot_bringup/cmake/spjbot_bringupConfig-version.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_bringup/share/spjbot_bringup/cmake/spjbot_bringupConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/spjbot_bringup/cmake/spjbot_bringupConfig.cmake

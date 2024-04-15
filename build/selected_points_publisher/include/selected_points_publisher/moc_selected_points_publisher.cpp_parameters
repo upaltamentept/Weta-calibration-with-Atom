@@ -1,0 +1,15 @@
+-I/home/pedro/ros/workspaces/atom/src/atom/atom_rviz_plugins/selected_points_publisher/include
+-I/home/pedro/ros/workspaces/atom/devel/.private/rviz/include
+-I/home/pedro/ros/workspaces/atom/src/rviz/src
+-I/opt/ros/noetic/include
+-I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-I/usr/include/eigen3
+-I/usr/include/OGRE/Overlay
+-I/usr/include/OGRE
+-I/usr/include
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="selected_points_publisher"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/pedro/ros/workspaces/atom/build/selected_points_publisher/include/selected_points_publisher/moc_selected_points_publisher.cpp
+/home/pedro/ros/workspaces/atom/src/atom/atom_rviz_plugins/selected_points_publisher/include/selected_points_publisher/selected_points_publisher.hpp

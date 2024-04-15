@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/mrjbot_calibration/lib/pkgconfig/mrjbot_calibration.pc

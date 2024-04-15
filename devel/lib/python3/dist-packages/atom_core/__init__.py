@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/atom_core/lib/python3/dist-packages/atom_core/__init__.py

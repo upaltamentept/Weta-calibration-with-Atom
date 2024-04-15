@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rdbot_calibration/lib/pkgconfig/rdbot_calibration.pc

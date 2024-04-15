@@ -1,0 +1,2 @@
+atom/atom
+/home/pedro/ros/workspaces/atom/devel/.private/atom/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock

@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/atom_evaluation/lib/pkgconfig/atom_evaluation.pc

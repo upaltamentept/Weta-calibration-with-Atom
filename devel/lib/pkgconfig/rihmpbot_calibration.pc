@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rihmpbot_calibration/lib/pkgconfig/rihmpbot_calibration.pc

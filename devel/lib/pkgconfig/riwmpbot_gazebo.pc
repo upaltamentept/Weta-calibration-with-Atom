@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_gazebo/lib/pkgconfig/riwmpbot_gazebo.pc

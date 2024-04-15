@@ -1,0 +1,5 @@
+atom/atom_examples/rrcbot/rrcbot_description
+/home/pedro/ros/workspaces/atom/devel/.private/rrcbot_description/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/rrcbot_description/lib/pkgconfig/rrcbot_description.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/rrcbot_description.pc
+/home/pedro/ros/workspaces/atom/devel/.private/rrcbot_description/share/rrcbot_description/cmake/rrcbot_descriptionConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/rrcbot_description/cmake/rrcbot_descriptionConfig.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/rrcbot_description/share/rrcbot_description/cmake/rrcbot_descriptionConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/rrcbot_description/cmake/rrcbot_descriptionConfig-version.cmake

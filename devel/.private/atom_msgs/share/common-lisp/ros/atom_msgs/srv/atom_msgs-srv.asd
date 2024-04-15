@@ -1,0 +1,23 @@
+
+(cl:in-package :asdf)
+
+(defsystem "atom_msgs-srv"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :components ((:file "_package")
+    (:file "DeleteCollection" :depends-on ("_package_DeleteCollection"))
+    (:file "_package_DeleteCollection" :depends-on ("_package"))
+    (:file "GetAdditionalTfsInteractiveMarker" :depends-on ("_package_GetAdditionalTfsInteractiveMarker"))
+    (:file "_package_GetAdditionalTfsInteractiveMarker" :depends-on ("_package"))
+    (:file "GetDataset" :depends-on ("_package_GetDataset"))
+    (:file "_package_GetDataset" :depends-on ("_package"))
+    (:file "GetSensorInteractiveMarker" :depends-on ("_package_GetSensorInteractiveMarker"))
+    (:file "_package_GetSensorInteractiveMarker" :depends-on ("_package"))
+    (:file "SaveCollection" :depends-on ("_package_SaveCollection"))
+    (:file "_package_SaveCollection" :depends-on ("_package"))
+    (:file "SetAdditionalTfsInteractiveMarker" :depends-on ("_package_SetAdditionalTfsInteractiveMarker"))
+    (:file "_package_SetAdditionalTfsInteractiveMarker" :depends-on ("_package"))
+    (:file "SetSensorInteractiveMarker" :depends-on ("_package_SetSensorInteractiveMarker"))
+    (:file "_package_SetSensorInteractiveMarker" :depends-on ("_package"))
+    (:file "ToggleAutomaticDataCollector" :depends-on ("_package_ToggleAutomaticDataCollector"))
+    (:file "_package_ToggleAutomaticDataCollector" :depends-on ("_package"))
+  ))

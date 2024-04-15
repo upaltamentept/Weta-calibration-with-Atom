@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/mrjbot_gazebo/share/mrjbot_gazebo/cmake/mrjbot_gazeboConfig.cmake

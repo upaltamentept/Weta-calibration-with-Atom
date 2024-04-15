@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/devel/.private/rdbot_calibration
+
+Name: rdbot_calibration
+Description: Description of rdbot_calibration
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

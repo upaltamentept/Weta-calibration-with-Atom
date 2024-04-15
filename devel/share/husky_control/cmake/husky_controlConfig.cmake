@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/husky_control/share/husky_control/cmake/husky_controlConfig.cmake

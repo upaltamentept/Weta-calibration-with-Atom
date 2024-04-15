@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rlbot_bringup/lib/pkgconfig/rlbot_bringup.pc

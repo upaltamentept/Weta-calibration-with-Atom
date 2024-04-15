@@ -1,0 +1,5 @@
+husky/husky_control
+/home/pedro/ros/workspaces/atom/devel/.private/husky_control/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/husky_control/lib/pkgconfig/husky_control.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/husky_control.pc
+/home/pedro/ros/workspaces/atom/devel/.private/husky_control/share/husky_control/cmake/husky_controlConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/husky_control/cmake/husky_controlConfig-version.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/husky_control/share/husky_control/cmake/husky_controlConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/husky_control/cmake/husky_controlConfig.cmake

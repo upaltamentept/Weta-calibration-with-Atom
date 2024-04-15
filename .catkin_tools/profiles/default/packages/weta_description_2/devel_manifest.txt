@@ -1,0 +1,5 @@
+Agrob4Simulation-ros-melodic-AgRob_simulator-launch-weta_v2/AgRob_simulator/launch/weta_v2
+/home/pedro/ros/workspaces/atom/devel/.private/weta_description_2/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/weta_description_2/lib/pkgconfig/weta_description_2.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/weta_description_2.pc
+/home/pedro/ros/workspaces/atom/devel/.private/weta_description_2/share/weta_description_2/cmake/weta_description_2Config-version.cmake /home/pedro/ros/workspaces/atom/devel/share/weta_description_2/cmake/weta_description_2Config-version.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/weta_description_2/share/weta_description_2/cmake/weta_description_2Config.cmake /home/pedro/ros/workspaces/atom/devel/share/weta_description_2/cmake/weta_description_2Config.cmake

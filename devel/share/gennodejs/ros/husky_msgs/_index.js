@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/gennodejs/ros/husky_msgs/_index.js

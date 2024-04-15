@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/devel/.private/hector_components_description
+
+Name: hector_components_description
+Description: Description of hector_components_description
+Version: 0.5.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

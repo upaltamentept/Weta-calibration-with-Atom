@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/mrbot_bringup/share/mrbot_bringup/cmake/mrbot_bringupConfig.cmake

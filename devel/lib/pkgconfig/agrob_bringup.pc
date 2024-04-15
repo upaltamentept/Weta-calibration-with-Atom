@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/agrob_bringup/lib/pkgconfig/agrob_bringup.pc

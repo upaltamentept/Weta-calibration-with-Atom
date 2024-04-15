@@ -1,0 +1,5 @@
+atom/atom_examples/spjbot/spjbot_calibration
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_calibration/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_calibration/lib/pkgconfig/spjbot_calibration.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/spjbot_calibration.pc
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_calibration/share/spjbot_calibration/cmake/spjbot_calibrationConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/spjbot_calibration/cmake/spjbot_calibrationConfig.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_calibration/share/spjbot_calibration/cmake/spjbot_calibrationConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/spjbot_calibration/cmake/spjbot_calibrationConfig-version.cmake

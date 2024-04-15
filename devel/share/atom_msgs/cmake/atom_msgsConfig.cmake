@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/atom_msgs/share/atom_msgs/cmake/atom_msgsConfig.cmake

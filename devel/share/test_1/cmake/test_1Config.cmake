@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/test_1/share/test_1/cmake/test_1Config.cmake

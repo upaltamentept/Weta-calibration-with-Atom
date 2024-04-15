@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/devel/.private/robot_test
+
+Name: robot_test
+Description: Description of robot_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

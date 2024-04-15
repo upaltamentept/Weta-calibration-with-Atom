@@ -1,0 +1,5 @@
+atom/atom_examples/riwmpbot/riwmpbot_description
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_description/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_description/lib/pkgconfig/riwmpbot_description.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/riwmpbot_description.pc
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_description/share/riwmpbot_description/cmake/riwmpbot_descriptionConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/riwmpbot_description/cmake/riwmpbot_descriptionConfig-version.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_description/share/riwmpbot_description/cmake/riwmpbot_descriptionConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/riwmpbot_description/cmake/riwmpbot_descriptionConfig.cmake

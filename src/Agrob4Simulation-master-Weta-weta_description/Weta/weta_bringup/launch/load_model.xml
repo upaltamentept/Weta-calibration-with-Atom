@@ -1,0 +1,20 @@
+<launch>
+  <node pkg="python3" type="minimal_client.py" name="minimal_client" output="screen">
+    <param name="content" value="$(arg content)"/>
+  </node>
+
+  <param name="pose_goal/x" value="-30.0"/>
+  <param name="pose_goal/y" value="0.0"/>
+  <param name="pose_goal/z" value="55.0"/>
+  <param name="pose_goal/orientation/y" value="0.0"/>
+  <param name="pose_goal/orientation/x" value="0.0"/>
+  <param name="pose_goal/orientation/z" value="0.0"/>
+  <param name="pose_goal/orientation/w" value="1.0"/>
+
+  <service name="/spawn_entity" type="gazebo_msgs/SpawnEntity"/>
+
+  <node pkg="rosservice" type="rosservice" name="wait_for_service" args="wait /spawn_entity"/>
+
+  <node pkg="rosservice" type="rosservice" name="call_service" args="call /spawn_entity 'box_bot' '$(param content)' '' 'world' '$(param pose_goal)'"/>
+
+</launch>

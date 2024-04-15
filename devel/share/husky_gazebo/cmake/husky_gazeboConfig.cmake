@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/husky_gazebo/share/husky_gazebo/cmake/husky_gazeboConfig.cmake

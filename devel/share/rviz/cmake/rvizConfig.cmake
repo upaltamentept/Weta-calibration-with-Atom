@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rviz/share/rviz/cmake/rvizConfig.cmake

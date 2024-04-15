@@ -1,0 +1,5 @@
+atom/atom_examples/rlbot/rlbot_description
+/home/pedro/ros/workspaces/atom/devel/.private/rlbot_description/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/rlbot_description/lib/pkgconfig/rlbot_description.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/rlbot_description.pc
+/home/pedro/ros/workspaces/atom/devel/.private/rlbot_description/share/rlbot_description/cmake/rlbot_descriptionConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/rlbot_description/cmake/rlbot_descriptionConfig.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/rlbot_description/share/rlbot_description/cmake/rlbot_descriptionConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/rlbot_description/cmake/rlbot_descriptionConfig-version.cmake

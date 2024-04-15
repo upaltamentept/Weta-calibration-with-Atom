@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rrcbot_description/lib/pkgconfig/rrcbot_description.pc

@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/weta_description/lib/pkgconfig/weta_description.pc

@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/riwbot_description/share/riwbot_description/cmake/riwbot_descriptionConfig-version.cmake

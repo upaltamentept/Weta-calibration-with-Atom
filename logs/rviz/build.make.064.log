@@ -1,0 +1,110 @@
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target map_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target _rviz_generate_messages_check_deps_SendFilePath
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target map_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target map_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target map_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target map_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] [34m[1mAutomatic MOC for target connect_test[0m
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_py
+[  1%] [34m[1mAutomatic MOC for target interactive_marker_test[0m
+[  4%] Built target rviz_generate_messages_cpp
+[  4%] Built target rviz_generate_messages_lisp
+[  4%] Built target rviz_generate_messages_py
+[  4%] Built target rviz_generate_messages_eus
+[  4%] Built target rviz_generate_messages_nodejs
+[  4%] Built target connect_test_autogen
+[  4%] Built target interactive_marker_test_autogen
+[  5%] Built target rviz_generate_messages
+[  5%] [34m[1mAutomatic MOC for target rviz[0m
+[  6%] Built target interactive_marker_test
+[  8%] Built target connect_test
+[  8%] Built target rviz_autogen
+[ 52%] Built target rviz
+[ 55%] [34m[1mAutomatic MOC for target executable[0m
+[ 55%] [34m[1mAutomatic MOC for target two_render_widgets[0m
+[ 55%] [34m[1mAutomatic MOC for target rviz_image_view[0m
+[ 55%] [34m[1mAutomatic MOC for target render_panel_test[0m
+[ 55%] [34m[1mAutomatic MOC for target color_editor_test[0m
+[ 55%] [34m[1mAutomatic MOC for target new_display_dialog_test[0m
+[ 55%] [34m[1mAutomatic MOC for target line_edit_with_button_test[0m
+[ 56%] [34m[1mAutomatic MOC for target render_points_test[0m
+[ 58%] [34m[1mAutomatic MOC for target rviz_default_plugin[0m
+[ 58%] [34m[1mMeta target for rviz_sip Python bindings...[0m
+[ 59%] Built target librviz_sip
+[ 59%] Built target color_editor_test_autogen
+[ 59%] Built target render_panel_test_autogen
+[ 59%] Built target rviz_image_view_autogen
+[ 59%] Built target two_render_widgets_autogen
+[ 59%] Built target new_display_dialog_test_autogen
+[ 59%] Built target executable_autogen
+[ 59%] Built target rviz_default_plugin_autogen
+[ 59%] Built target line_edit_with_button_test_autogen
+[ 59%] Built target render_points_test_autogen
+[ 60%] Built target color_editor_test
+[ 62%] Built target render_panel_test
+[ 64%] Built target render_points_test
+[ 64%] Built target new_display_dialog_test
+[ 66%] Built target line_edit_with_button_test
+[ 67%] Built target executable
+[ 68%] Built target rviz_image_view
+[ 70%] Built target two_render_widgets
+[100%] Built target rviz_default_plugin

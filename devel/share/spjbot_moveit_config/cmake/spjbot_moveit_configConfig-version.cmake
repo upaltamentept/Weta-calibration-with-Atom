@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/spjbot_moveit_config/share/spjbot_moveit_config/cmake/spjbot_moveit_configConfig-version.cmake

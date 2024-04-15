@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/mrbot_calibration/share/mrbot_calibration/cmake/mrbot_calibrationConfig-version.cmake

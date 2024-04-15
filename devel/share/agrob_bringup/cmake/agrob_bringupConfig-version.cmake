@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/agrob_bringup/share/agrob_bringup/cmake/agrob_bringupConfig-version.cmake

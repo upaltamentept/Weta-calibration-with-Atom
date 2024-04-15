@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rihbot_description/lib/pkgconfig/rihbot_description.pc

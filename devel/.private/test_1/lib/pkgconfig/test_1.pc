@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/devel/.private/test_1
+
+Name: test_1
+Description: Description of test_1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

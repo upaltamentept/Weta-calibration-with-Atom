@@ -1,0 +1,5 @@
+atom/atom_examples/riwbot/riwbot_description
+/home/pedro/ros/workspaces/atom/devel/.private/riwbot_description/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/riwbot_description/lib/pkgconfig/riwbot_description.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/riwbot_description.pc
+/home/pedro/ros/workspaces/atom/devel/.private/riwbot_description/share/riwbot_description/cmake/riwbot_descriptionConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/riwbot_description/cmake/riwbot_descriptionConfig-version.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/riwbot_description/share/riwbot_description/cmake/riwbot_descriptionConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/riwbot_description/cmake/riwbot_descriptionConfig.cmake

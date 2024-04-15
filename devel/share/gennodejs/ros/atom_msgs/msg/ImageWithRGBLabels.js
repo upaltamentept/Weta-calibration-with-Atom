@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/atom_msgs/share/gennodejs/ros/atom_msgs/msg/ImageWithRGBLabels.js

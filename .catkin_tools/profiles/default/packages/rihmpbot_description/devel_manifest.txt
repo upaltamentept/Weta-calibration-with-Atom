@@ -1,0 +1,5 @@
+atom/atom_examples/rihmpbot/rihmpbot_description
+/home/pedro/ros/workspaces/atom/devel/.private/rihmpbot_description/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/rihmpbot_description/lib/pkgconfig/rihmpbot_description.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/rihmpbot_description.pc
+/home/pedro/ros/workspaces/atom/devel/.private/rihmpbot_description/share/rihmpbot_description/cmake/rihmpbot_descriptionConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/rihmpbot_description/cmake/rihmpbot_descriptionConfig.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/rihmpbot_description/share/rihmpbot_description/cmake/rihmpbot_descriptionConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/rihmpbot_description/cmake/rihmpbot_descriptionConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_gazebo/share/riwmpbot_gazebo/cmake/riwmpbot_gazeboConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/mrbot_description/share/mrbot_description/cmake/mrbot_descriptionConfig-version.cmake

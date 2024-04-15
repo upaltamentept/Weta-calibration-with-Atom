@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/devel/.private/atom_core
+
+Name: atom_core
+Description: Description of atom_core
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,5 @@
+agrob/agrob_bringup
+/home/pedro/ros/workspaces/atom/devel/.private/agrob_bringup/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/agrob_bringup/lib/pkgconfig/agrob_bringup.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/agrob_bringup.pc
+/home/pedro/ros/workspaces/atom/devel/.private/agrob_bringup/share/agrob_bringup/cmake/agrob_bringupConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/agrob_bringup/cmake/agrob_bringupConfig.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/agrob_bringup/share/agrob_bringup/cmake/agrob_bringupConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/agrob_bringup/cmake/agrob_bringupConfig-version.cmake

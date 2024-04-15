@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_real_description/share/riwmpbot_real_description/cmake/riwmpbot_real_descriptionConfig.cmake

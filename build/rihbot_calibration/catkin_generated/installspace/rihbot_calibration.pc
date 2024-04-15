@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/install
+
+Name: rihbot_calibration
+Description: Description of rihbot_calibration
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

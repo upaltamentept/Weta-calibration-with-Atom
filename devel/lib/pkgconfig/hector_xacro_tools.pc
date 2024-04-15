@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/hector_xacro_tools/lib/pkgconfig/hector_xacro_tools.pc

@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rdbot_description/share/rdbot_description/cmake/rdbot_descriptionConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/husky_viz/share/husky_viz/cmake/husky_vizConfig.cmake

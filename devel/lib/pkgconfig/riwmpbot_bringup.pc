@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/riwmpbot_bringup/lib/pkgconfig/riwmpbot_bringup.pc

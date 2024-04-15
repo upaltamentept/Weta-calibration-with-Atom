@@ -1,0 +1,1 @@
+/home/pedro/ros/workspaces/atom/devel/.private/rihmpbot_description/share/rihmpbot_description/cmake/rihmpbot_descriptionConfig.cmake

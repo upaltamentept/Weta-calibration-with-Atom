@@ -1,0 +1,6 @@
+atom/atom_core
+/home/pedro/ros/workspaces/atom/devel/.private/atom_core/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/atom_core/lib/python3/dist-packages/atom_core/__init__.py /home/pedro/ros/workspaces/atom/devel/lib/python3/dist-packages/atom_core/__init__.py
+/home/pedro/ros/workspaces/atom/devel/.private/atom_core/lib/pkgconfig/atom_core.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/atom_core.pc
+/home/pedro/ros/workspaces/atom/devel/.private/atom_core/share/atom_core/cmake/atom_coreConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/atom_core/cmake/atom_coreConfig-version.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/atom_core/share/atom_core/cmake/atom_coreConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/atom_core/cmake/atom_coreConfig.cmake

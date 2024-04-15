@@ -1,0 +1,8 @@
+prefix=/home/pedro/ros/workspaces/atom/devel/.private/atom_msgs
+
+Name: atom_msgs
+Description: Description of atom_msgs
+Version: 0.0.0
+Cflags: -I/home/pedro/ros/workspaces/atom/devel/.private/atom_msgs/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs sensor_msgs message_runtime

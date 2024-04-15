@@ -1,0 +1,20 @@
+husky/husky_msgs
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/cmake.lock /home/pedro/ros/workspaces/atom/devel/./cmake.lock
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/include/husky_msgs/HuskyStatus.h /home/pedro/ros/workspaces/atom/devel/include/husky_msgs/HuskyStatus.h
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/lib/python3/dist-packages/husky_msgs/__init__.py /home/pedro/ros/workspaces/atom/devel/lib/python3/dist-packages/husky_msgs/__init__.py
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/lib/python3/dist-packages/husky_msgs/msg/_HuskyStatus.py /home/pedro/ros/workspaces/atom/devel/lib/python3/dist-packages/husky_msgs/msg/_HuskyStatus.py
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/lib/python3/dist-packages/husky_msgs/msg/__init__.py /home/pedro/ros/workspaces/atom/devel/lib/python3/dist-packages/husky_msgs/msg/__init__.py
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/lib/pkgconfig/husky_msgs.pc /home/pedro/ros/workspaces/atom/devel/lib/pkgconfig/husky_msgs.pc
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/husky_msgs/cmake/husky_msgs-msg-extras.cmake /home/pedro/ros/workspaces/atom/devel/share/husky_msgs/cmake/husky_msgs-msg-extras.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/husky_msgs/cmake/husky_msgsConfig.cmake /home/pedro/ros/workspaces/atom/devel/share/husky_msgs/cmake/husky_msgsConfig.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/husky_msgs/cmake/husky_msgsConfig-version.cmake /home/pedro/ros/workspaces/atom/devel/share/husky_msgs/cmake/husky_msgsConfig-version.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/husky_msgs/cmake/husky_msgs-msg-paths.cmake /home/pedro/ros/workspaces/atom/devel/share/husky_msgs/cmake/husky_msgs-msg-paths.cmake
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/gennodejs/ros/husky_msgs/_index.js /home/pedro/ros/workspaces/atom/devel/share/gennodejs/ros/husky_msgs/_index.js
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/gennodejs/ros/husky_msgs/msg/_index.js /home/pedro/ros/workspaces/atom/devel/share/gennodejs/ros/husky_msgs/msg/_index.js
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/gennodejs/ros/husky_msgs/msg/HuskyStatus.js /home/pedro/ros/workspaces/atom/devel/share/gennodejs/ros/husky_msgs/msg/HuskyStatus.js
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/roseus/ros/husky_msgs/manifest.l /home/pedro/ros/workspaces/atom/devel/share/roseus/ros/husky_msgs/manifest.l
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/roseus/ros/husky_msgs/msg/HuskyStatus.l /home/pedro/ros/workspaces/atom/devel/share/roseus/ros/husky_msgs/msg/HuskyStatus.l
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/common-lisp/ros/husky_msgs/msg/husky_msgs-msg.asd /home/pedro/ros/workspaces/atom/devel/share/common-lisp/ros/husky_msgs/msg/husky_msgs-msg.asd
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/common-lisp/ros/husky_msgs/msg/HuskyStatus.lisp /home/pedro/ros/workspaces/atom/devel/share/common-lisp/ros/husky_msgs/msg/HuskyStatus.lisp
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/common-lisp/ros/husky_msgs/msg/_package_HuskyStatus.lisp /home/pedro/ros/workspaces/atom/devel/share/common-lisp/ros/husky_msgs/msg/_package_HuskyStatus.lisp
+/home/pedro/ros/workspaces/atom/devel/.private/husky_msgs/share/common-lisp/ros/husky_msgs/msg/_package.lisp /home/pedro/ros/workspaces/atom/devel/share/common-lisp/ros/husky_msgs/msg/_package.lisp
